@@ -1,0 +1,502 @@
+
+    html, body{
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    img{
+        width: 100%;
+    }
+        
+    .box{
+        width: 100%;
+    
+    }
+    
+    .top{
+    height: 615px;
+    background-image: url(image/j.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    }
+
+    .top .navbar {
+        text-align: center;
+        z-index:300;
+    }
+    .top .navbar-dark .navbar-toggler {
+        border:1px solid #FFC107;
+    }
+
+    .top .navbar-dark .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        color: #FFC107;
+        font-size: 33px;
+    }
+
+    .top .opac{
+    height:620px;
+    background-color:black;
+    opacity:.5;
+    margin-top:-5rem;
+    }
+    
+    
+    .top .pres {
+    position:absolute;
+    top:39%;
+    left:21%;
+    text-align: center;
+    padding: 1%;
+    }
+
+    .top .pres  h2{
+    color: #fff;
+    font-size:37px;
+     z-index:400;
+    }
+
+    .top .pres  span{
+        font-family: 'Dancing Script', cursive;
+    color: #FFC107;
+    font-size: 51px;
+    }
+    
+    .top p{
+        color:#fff;
+        font-size:21px;
+    }
+    
+    .top .pres a {
+        font-size: 17px;
+        border:1px solid;
+        padding:1%;
+        border-radius:3px;
+        text-decoration: none;
+        color: #FFC107;
+    }
+
+    .top .pres a:hover { 
+        background-color:#FFC107;
+        color:black;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about h2{
+        color:#151C22;
+        height: 100px;
+        padding-top: 8%;
+        text-align: center;
+    }
+
+    .about p{
+        width: 80%;
+        padding: 5%;
+        border-radius: 3px;
+        margin-left: 9%;
+        font-size: 19px;
+        background-color: #151C22;
+        color:#FFC107;
+    }
+
+
+    .skills{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .skills h2{
+        text-align: center;
+        color: #151C22;
+           width: 100%;
+        height: 100px;
+        padding-top: 11px;
+    }
+    .skills .image{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .skills .progress{
+        width: 70%;
+        margin-right: 1%;
+        margin-top: 13%;
+        float: right;
+    }
+
+    .skills img{
+        width: 100px;
+        height: 100px;
+    }
+
+        
+    .project{
+       width: 100%;
+       text-align: center;
+       margin-top: 5%;
+    }
+
+    .project h2{
+      margin-bottom: 15%;
+      width: 50%;
+      margin-left: 27%;
+      color: #151C22;
+    }
+
+    .sabira,
+    .skool, 
+    .sumeya{
+        text-align: center;
+    }
+
+    .sabira,.skool{
+        margin-bottom: 15%;
+    }
+
+    .sabira img,
+    .skool img,
+    .sumeya img{
+    width: 95%;
+    height: 350px;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px #FFC107;
+    }
+
+    .sabiraSide h3,
+    .skoolSide h3,
+    .sumeyaSide h3{
+        font-size: 25px;
+        color: #151C22;
+        text-transform: uppercase;
+    }
+
+    .sabiraSide p,
+    .skoolSide p,
+    .sumeyaSide p{
+        font-size: 19px;
+        margin-bottom: 20px;
+        padding: 3%;
+        line-height: 30px;
+    }
+
+    .sabiraSide div,
+    .skoolSide div,
+    .sumeyaSide div{
+     height:50px;
+     padding-top:4%;
+    }
+
+    .sabiraSide a,
+    .skoolSide a,
+    .sumeyaSide a{
+    padding:3%;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #FFC107;
+    border-radius: 3px;
+    background-color: #151C22;
+    border: 1px solid #FFC107;
+    }
+
+    .sabiraSide a:hover ,
+    .skoolSide a:hover,
+    .sumeyaSide a:hover{
+        background-color:#FFC107;
+        color:black;
+    }
+
+    .sabiraSide b,
+    .skoolSide b,
+     .sumeyaSide b{
+        color: #151C22;
+    }
+
+    footer{
+       text-align: center;
+      margin-top: 11%;
+    }
+    
+    footer h3{
+      margin-bottom: 5%;
+       color: #151C22;
+    }
+    
+    footer p{
+        width: 100%;
+        padding: 5%;
+        font-size: 19px;
+       background-color:#151C22;
+       color: #FFC107;
+       margin-bottom:-40px;
+     }
+    
+   
+ 
+    /* very small device, iphone 5)*/
+    
+    @media (max-width: 400px) {
+    .top .pres{
+      top:27%;
+      display:block;
+    }
+    
+    .top .press h2{
+        margin-bottom: 3%;
+    }
+
+    .skills .progress{
+      margin-top: -17%;
+    }
+}
+     
+/* Small devices (landscape phones, 576px and up)*/
+
+
+    @media (min-width: 576px) {
+
+    .top .pres {
+    top:27%;
+    text-align: center;
+    margin-top: 7%;
+    }
+
+    .top .pres  h2{
+    color: #fff;
+    font-size: 53px;
+    }
+
+    .top .pres  span{
+        font-family: 'Dancing Script', cursive;
+    color: #FFC107;
+    font-size: 59px;
+    }
+        
+    .top .pres  a{
+        left: 0;
+        font-size: 23px;
+        text-decoration: none;
+        color: #FFC107;
+    }
+
+    .skills .progress{
+        margin-top: 8%;
+    }
+    
+        .sabiraSide div,
+    .skoolSide div,
+        .sumeyaSide div{
+        height:50px;
+        padding-top:2%;
+    }
+
+    .sabiraSide a,
+    .skoolSide a,
+        .sumeyaSide a{
+        padding:2%;
+        
+    }
+
+    }
+
+     
+
+/* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) { 
+   
+    .top .pres{
+        top:19%;
+        right:-11%;
+    }
+
+    .top .pres  h2{
+    font-size: 55px;
+    }
+
+    .top .pres  span{
+    font-size: 75px;
+    }
+
+    
+    .top .pres  a{
+        font-size: 23px;
+        text-decoration: none;
+        color: #FFC107;
+
+    }
+
+    .top .pres p { 
+    margin-bottom: 7%;
+    }
+
+    .skills .progress{
+        margin-top: 8%;
+    }
+
+    .about p{
+        margin-left: 11%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .top {
+        background-position: center -51rem;
+    }
+    
+    .top .opac{
+   height:633px;
+    }
+    .navbar-brand{
+        margin-top: -1%;
+    }
+    .top .navbar-nav {
+        position: absolute;
+        right: 3%;
+        top: 11%;
+    }
+
+    .top .navbar-nav .nav-link{
+       font-size: 19px;
+     
+    }
+
+    .top .pres {
+    top:11%;
+    right:-30%;
+    }
+    
+    .top .pres  h2{
+    font-size: 75px;
+    }
+
+    .top .pres  span{
+    font-size: 85px;
+    }
+
+        
+    .top .pres p{
+        margin-bottom:5%;
+    }
+
+    .top .pres  a{
+        text-decoration: none;
+        color: #FFC107;
+    }
+    
+    .about{
+        width: 100%;
+    }
+
+    .about h2{
+        padding: 4%;
+        margin-bottom: 3%;
+    }
+
+    .about p{
+        width: 90%;
+        padding: 5%;
+        margin-left: 5%;
+    }
+
+    .skills .progress{
+        margin-top: 4%;
+        margin-right: 5%;
+    }
+
+    .skills img{
+        margin-left: 7%;
+    }
+        
+    .project{
+        width: 100%;
+        margin-top: 3%;
+     }
+ 
+     .project h2{
+         margin-bottom: 11%;
+         width: 50%;
+       margin-left: 27%;
+     }
+ 
+     .sabira, .sumeya{
+        text-align: center;
+        padding-right: 2%;
+    } 
+
+     .skool{
+         text-align: center;
+         padding-left: 3%;
+         margin-bottom: 7%;
+     }
+ 
+     .sabira img,
+     .sumeya img{
+     width: 50%;
+     float: left;
+     height: 350px;
+     margin-bottom: 0;
+     margin-left: 3%;
+     }
+
+    .skool img{
+     width: 50%;
+     float: right;
+     height: 350px;
+     margin-bottom: 0;
+     margin-right: 3%;
+     }
+
+    .sabiraSide h3,
+    .skoolSide h3,
+    .sumeyaSide h3{
+     font-size: 25px;
+     }
+ 
+    .sabiraSide p,
+    .skoolSide p,
+    .sumeyaSide p{
+    margin-top:-1%;
+    font-size: 19px;
+    margin-bottom: 0;
+    padding: 2%;
+    line-height: 30px;
+     }
+     
+     .sabiraSide div,
+     .skoolSide div,
+      .sumeyaSide div
+    {
+      padding-top:1%;
+     margin-bottom:0;
+     }
+
+    .sabiraSide a ,
+    .skoolSide a,
+    .sumeyaSide a{
+    padding:1%;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #FFC107;
+     }
+ 
+    .sabiraSide b,
+    .skoolSide b,
+    .sumeyaSide b{
+    color: #151C22;
+     }
+ }
+
